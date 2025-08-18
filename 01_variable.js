@@ -12,5 +12,4 @@ accountCity="Lucknow"
 
 console.log(accountId);
 console.table([accountId,accountEmail,accountPassword,accountPassword,accountState]);
-   git config --global user.email "abhishek"
-     git config --global user.name "abhi"
+ 
