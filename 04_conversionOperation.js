@@ -11,6 +11,4 @@ console.log(undefined > 0);
 //most of the cases we avoid this
 
 // ===
-
-console.log("2" === 2); 
 console.log("2" === 2); 
