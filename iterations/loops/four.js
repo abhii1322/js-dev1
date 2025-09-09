@@ -10,7 +10,7 @@ for (const key in myObject) {    // here we use for in loop for of loop is not w
 }
 
 
-const programming = ["rb", "python", "java ", "cpp"]
+const programming = ["rb", "python", "java ", "cpp"]    // for of loop
 
 for (const key in programming) {
     console.log(programming[key]);
