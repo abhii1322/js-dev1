@@ -1,21 +1,16 @@
-//var c= 300
-
+// var c = 300
 
 let a = 300
-if (true){
-    let a= 10
+if (true) {
+    let a = 10
     const b = 20 
-console.log("INNER", a);
+    console.log("INNER", a);
+}
 
-
-
-}                                  // if curly braces come with function and if else then it is called scope  and  {} scope ke andr jo likhte h use block scope nd bhr vaale ko global scope bolte h
-
+// When curly braces {} come with functions or if-else, it's called scope
+// Variables inside {} are in block scope, outside are in global scope
 
 console.log(a);
-//console.log(b);
-//console.log(c);
-   
+// console.log(b); // error: b is not defined in this scope
+// console.log(c);
 
-
-// 

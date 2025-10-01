@@ -1,6 +1,6 @@
-1 // singleton  literals ki trah declare krte h to singleton nhi bnta h (constructor se krte h to hmesha bnta h )
+1 // singleton - when we declare using literals, singleton is not created (singleton is created using constructor)
 
-//object literals
+// object literals
 
 const mySym = Symbol("key1")
 
@@ -12,26 +12,25 @@ const JsUser = {
     location: "jaipur",
     email: "abhi@google.com",
     isLoggedIn: false,
-    lastLoginDays:  ["Monday","Saturday"]
+    lastLoginDays: ["Monday", "Saturday"]
 }
 
-//console.log(JsUser.email);
-//console.log(JsUser["email"]);
-//console.log(JsUser["full name"]);
-//console.log(JsUser[mySym]);
+// console.log(JsUser.email);
+// console.log(JsUser["email"]);
+// console.log(JsUser["full name"]);
+// console.log(JsUser[mySym]);
 
 JsUser.email = "abhi@chatgpt.com"
-// Object.freeze(JsUser)
+// Object.freeze(JsUser) // freeze prevents modifications
 JsUser.email = "abhi@microsoft.com"
-//console.log(JsUser);
+// console.log(JsUser);
 
-
-JsUser.greeting = function(){
+JsUser.greeting = function() {
     console.log("Hello js user");
     
 }
-JsUser.greetingTwo = function(){
-    console.log(`Hello js user , ${this.name}`);
+JsUser.greetingTwo = function() {
+    console.log(`Hello js user, ${this.name}`);
     
 }
 
