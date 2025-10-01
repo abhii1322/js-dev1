@@ -2,6 +2,13 @@
 
 A comprehensive collection of JavaScript fundamentals, concepts, and practice exercises documenting my learning journey.
 
+## 📖 Documentation
+
+- **[QUICK_START.md](QUICK_START.md)** - Get started in 5 minutes ⚡
+- **[LEARNING_GUIDE.md](LEARNING_GUIDE.md)** - Complete 6-week curriculum with exercises 📚
+- **[CONTRIBUTING.md](CONTRIBUTING.md)** - How to contribute to this repository 🤝
+- **[IMPROVEMENTS.md](IMPROVEMENTS.md)** - Summary of improvements made 📈
+
 ## 📚 Learning Path
 
 This repository is organized into different topics, progressing from basics to more advanced concepts:
