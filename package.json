@@ -1,0 +1,23 @@
+{
+  "name": "js-dev1",
+  "version": "1.0.0",
+  "description": "A comprehensive JavaScript learning repository covering fundamentals to advanced concepts",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"No tests specified yet\" && exit 0"
+  },
+  "keywords": [
+    "javascript",
+    "learning",
+    "tutorial",
+    "fundamentals",
+    "practice"
+  ],
+  "author": "abhii1322",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/abhii1322/js-dev1.git"
+  }
+}
